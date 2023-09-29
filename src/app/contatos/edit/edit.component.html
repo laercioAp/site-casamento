@@ -1,0 +1,30 @@
+<form (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+        <label>Nome Completo</label>
+        <input type="text" class="form-control" [(ngModel)]="contato.nome" name="nome">
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input type="text" class="form-control" [(ngModel)]="contato.email" name="email">
+    </div>
+
+    <div class="form-group">
+        <label>Telefone para contato</label>
+        <input type="text" class="form-control" [(ngModel)]="contato.telefone" name="telefone">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Select de exemplo</label>
+        <select class="form-control" id="exampleFormControlSelect1" [(ngModel)]="contato.quantidade" name="selectedOption">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
