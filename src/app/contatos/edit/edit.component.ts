@@ -22,7 +22,8 @@ export class EditComponent implements OnInit {
         this.contato.nome = data.contato.nome;
         this.contato.email = data.contato.email;
         this.contato.telefone = data.contato.telefone;
-        this.contato.quantidade = data.contato.quantidade
+        this.contato.adultos = data.contato.adultos
+        this.contato.criancas = data.contato.criancas
         this.key = data.key;
       }
     });

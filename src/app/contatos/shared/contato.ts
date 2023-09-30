@@ -2,5 +2,6 @@ export class Contato {
     nome: string = '';
     email: string = '';
     telefone: string = '';
-    quantidade: string = '';
+    adultos: string = '';
+    criancas: string = '';
 }

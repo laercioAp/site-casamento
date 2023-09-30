@@ -16,8 +16,19 @@
     </div>
 
     <div class="form-group">
-        <label for="exampleFormControlSelect1">Select de exemplo</label>
-        <select class="form-control" id="exampleFormControlSelect1" [(ngModel)]="contato.quantidade" name="selectedOption">
+        <label for="select-1">Quantidade de adultos</label>
+        <select class="form-control" id="select-2" [(ngModel)]="contato.adultos" name="selectedOption">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="select-3">Quantidade de crianças</label>
+        <select class="form-control" id="select-4" [(ngModel)]="contato.criancas" name="selectedOption">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>

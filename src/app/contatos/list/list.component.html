@@ -3,7 +3,8 @@
         <h5 class="card-title">{{ contato.nome }}</h5>
         <p class="card-text">{{ contato.email }}</p>
         <p class="card-text">{{ contato.telefone }}</p>
-        <p class="card-text">{{ contato.quantidade }}</p>
+        <p class="card-text">{{ contato.adultos }}</p>
+        <p class="card-text">{{ contato.criancas }}</p>
     </div>
     <div class="card-footer">
         <button type="button" class="btn btn-default" (click)="edit(contato, contato.key)">Editar</button>
